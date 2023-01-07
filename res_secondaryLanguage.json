@@ -1,116 +1,296 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Hola!",
+    "description": "👋 Soy Sam Ferrante. Mi español no es bueno pero me gusta probar. Estaba mejor antes, lo siento por eso. Soy un desarrollador de software. Enseño NodeJS, React y Python. Este es mi portafolio para mostrar mis trabajos, mis habilidades y mis proyectos. También soy un desarrollador de juegos independiente que trabaja en Unreal Engine.",
+    "section_name": {
+      "about": "Sobre mí",
+      "projects": "Proyectos",
+      "skills": "Competencias",
+      "experience": "Experiencia"
+    }
+  },
+  "projects": [
+    {
+      "title": "Unreal Game Proyectos",
+      "startDate": "2021 ",
+      "description": "Proyectos de juegos personales. Trabajé en juegos durante seis meses. Ahora trabajo en un juego para móviles. Algún día haré un juego mejor que Skyrim y Dark Souls juntos. ¡Espera!",
+      "images": [
+        "images/portfolio/unreal/RPG.png",
+        "images/portfolio/unreal/Wave.png"
+      ],
+      "url": "https://www.youtube.com/@sam-ferrante",
+      "technologies": [
+        {
+          "class": "devicon-unrealengine-original",
+          "name": "Unreal Engine"
+        },
+        {
+          "class": "devicon-blender-original",
+          "name": "Blender"
+        },
+        {
+          "class": "devicon-photoshop-plain",
+          "name": "Photoshop"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Revisión del sistema de tickets",
+      "startDate": "2020",
+      "description": "En DevOps di apoyo a equipos de desarrolladores de software y a trabajadores en almacenes. Me asignaron mejorar nuestro sistema de tickets. Entendí cómo se creaban los tickets, categoricé los problemas, proporcioné mejor soporte, mejoré la eficiencia y proporcioné métricas sobre las mejoras. Usé mucho HTML, JS y SQL.",
+      "images": [
+        "images/portfolio/devops/IT.jpg",
+        "images/portfolio/devops/warehouse.jpg",
+        "images/portfolio/devops/river.jpg"
+      ],
+      "url": "https://www.amazon.jobs/en/teams/sortation",
+      "technologies": [
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "SQL"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        }
+      ]
+    },
+    {
+      "title": "Solucionador de problemas del centro de llamadas",
+      "startDate": "2019",
+      "description": "Mi equipo proporcionó métricas a los trabajadores del centro de llamadas. Faltaban datos por muchos motivos. Tenía que entender por qué y crear un mensaje de error mejor para los usuarios que explicara el motivo.",
+      "images": [
+        "images/portfolio/metrics-tool/p1.png",
+        "images/portfolio/metrics-tool/p2.jpg"
+      ],
+      "url": "https://sellercentral.amazon.com/",
+      "technologies": [
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
+        }
+      ]
+    },
+    {
+      "title": "Herramienta de formación para centros de llamadas",
+      "startDate": "2018",
+      "description": "Herramienta de formación para centros de llamadas realizada con NodeJS, React y Express. Formulario creado en JavaScript para que los profesores puedan crear casos de uso. Formación de nuevos trabajadores.",
+      "images": [
+        "images/portfolio/csm-tool/train.jpg"
+      ],
+      "url": "https://sellercentral.amazon.com/",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        }
+      ]
+    },
+    {
+      "title": "Habilidades Alexa",
+      "startDate": "2016",
+      "description": "Estaba creando Alexa Skills. Hice dos para uso público. Uno era 'cosas que hacer en Tempe'. La otra era 'Buena influencia'. Alexa decía citas motivadoras, y la gente podía guardar sus favoritas.",
+      "images": [
+        "images/portfolio/alexa-skills/p1.png",
+        "images/portfolio/alexa-skills/p2.png"
+      ],
+      "url": "https://www.amazon.com/Good-Influence-Inc/dp/B07B48JMB7/ref=sr_1_1?crid=MG3AF7NSI1Y7&keywords=good+influence&qid=1671563649&s=digital-skills&sprefix=good+influence%2Calexa-skills%2C114&sr=1-1",
+      "technologies": [
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS (Lambda, Alexa)"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Good Influence Inc.",
+      "startDate": "2015",
+      "description": "Mi primer proyecto técnico. Mi propio negocio. Construí un sitio web en WordPress. Abrí una tienda en Amazon. Vendía aparatos de ejercicio. Quiero volver algún día y construir una aplicación de móvil para facilitar el voluntariado.",
+      "images": [
+        "images/portfolio/good-influence/p1.png",
+        "images/portfolio/good-influence/p2.png",
+        "images/portfolio/good-influence/p3.png"
+      ],
+      "url": "http://goodinfluenceinc.org/",
+      "technologies": [
+        {
+          "class": "devicon-wordpress-plain",
+          "name": "WordPress"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "ThriveDX",
+      "title": "Software Development Lead Instructor",
+      "years": "11.2021 - ahora",
+      "mainTech": [
+        "JavaScript / Node.JS"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.JS",
+        "React",
+        "Express",
+        "PostgreSQL",
+        "Sass",
+        "TypeScript",
+        "AWS",
+        "CircleCI"
+      ]
+    },
+    {
+      "company": "Revolent Group",
+      "title": "AWS Cloud Instructor",
+      "years": "03.2022 - 11.2022",
+      "mainTech": [
+        "AWS Developer / Solutions Architect"
+      ],
+      "technologies": [
+        "AWS",
+        "Docker",
+        "Git",
+        "Python"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "DevOps Support Engineer",
+      "years": "10.2019 - 07.2021",
+      "mainTech": [
+        "JavaScript",
+        "SQL",
+        "AWS",
+        "Java"
+      ],
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "Java",
+        "AWS CloudWatch",
+        "AWS SQS",
+        "AWS DynamoDB",
+        "AWS RedShift",
+        "QuickSight",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Junior Software Developer",
+      "years": "04.2018 - 10.2019",
+      "mainTech": [
+        "Python",
+        "Node.JS"
+      ],
+      "technologies": [
+        "Python",
+        "Node.JS",
+        "JavaScript",
+        "AWS DynamoDB",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Zuggand Inc.",
+      "title": "AWS Cloud Intern",
+      "years": "01.2018 - 04.2018",
+      "mainTech": [
+        "AWS Solutions Architect"
+      ],
+      "technologies": [
+        "AWS",
+        "WordPress",
+        "Git"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Software Developer Intern",
+      "years": "10.2017 - 04.2018",
+      "mainTech": [
+        "React",
+        "Express",
+        "JavaScript"
+      ],
+      "technologies": [
+        "React",
+        "Express",
+        "JavaScript",
+        "Java",
+        "Selenium"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Technical Account Manager",
+      "years": "02.2017 - 10.2017",
+      "mainTech": [
+        "Amazon Marketplace"
+      ],
+      "technologies": [
+        "API calls",
+        "CSM",
+        "FBA",
+        "Amazon Marketplace",
+        "Excel",
+        "HTML"
+      ]
+    }
+  ]
+}

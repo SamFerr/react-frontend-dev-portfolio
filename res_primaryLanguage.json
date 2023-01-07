@@ -1,118 +1,296 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hey there!",
+    "description": "👋 I'm Sam Ferrante. I'm a software developer currently teaching front-end development that consists of NodeJS, React, and Python. This is my portfolio to show off my resume, my skills, and my projects. I am also a indie game developer working with Unreal Engine.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Unreal Game Projects",
+      "startDate": "2021 ",
+      "description": "Personal projects related to game development. I spent 6 months learning how to create various genres of games. Since then, I have mostly worked on an untitled solo-developed mobile game. I've also spent some time working on an AARPG that will be better than Skyrim and Dark Souls combined. Just you wait!",
+      "images": [
+        "images/portfolio/unreal/RPG.png",
+        "images/portfolio/unreal/Wave.png"
+      ],
+      "url": "https://www.youtube.com/@sam-ferrante",
+      "technologies": [
+        {
+          "class": "devicon-unrealengine-original",
+          "name": "Unreal Engine"
+        },
+        {
+          "class": "devicon-blender-original",
+          "name": "Blender"
+        },
+        {
+          "class": "devicon-photoshop-plain",
+          "name": "Photoshop"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Ticket System Overhaul",
+      "startDate": "2020",
+      "description": "While in DevOps, supporting all of the developer teams and users in Sort Centers, I was tasked with improving our ticket system. This meant understanding how tickets came to us, categorizing the issues, providing better front line troubleshooting, imrpoving ticket triaging efficiency/accuracy and providing metrics on users and the improvements I made. This required a lot of HTML, JS, and SQL.",
+      "images": [
+        "images/portfolio/devops/IT.jpg",
+        "images/portfolio/devops/warehouse.jpg",
+        "images/portfolio/devops/river.jpg"
+      ],
+      "url": "https://www.amazon.jobs/en/teams/sortation",
+      "technologies": [
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "SQL"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
+        }
+      ]
+    },
+    {
+      "title": "CSM Troubleshooter",
+      "startDate": "2019",
+      "description": "My team provided a metrics tool for tech support associates but it would have missing data for various reasons. My job was to create a troubleshooter that provided better error messages to users. That required me to understand the use cases where data would not populate in the back end and update the front end to reflect the reason.",
+      "images": [
+        "images/portfolio/metrics-tool/p1.png",
+        "images/portfolio/metrics-tool/p2.jpg"
+      ],
+      "url": "https://sellercentral.amazon.com/",
+      "technologies": [
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
+        }
+      ]
+    },
+    {
+      "title": "Simulated CSM Tool",
+      "startDate": "2018",
+      "description": "Developed simulated case management system using NodeJS, React and Express to help in training new staff members in company. Developed JavaScript form to organize and export JSON to allow trainers and non-technical users to create use case scenarios for simulated case management system.",
+      "images": [
+        "images/portfolio/csm-tool/train.jpg"
+      ],
+      "url": "https://sellercentral.amazon.com/",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        }
+      ]
+    },
+    {
+      "title": "Alexa Skills",
+      "startDate": "2016",
+      "description": "I was creating Alexa Skills mostly for learning purposes, but I had created 2 that were published for public use. The first was a basic 'things to do in Tempe' skill that recommended food and things to do. The other was for my business Good Influence that provided motivational quotes upon request and allowed users to save their favorites",
+      "images": [
+        "images/portfolio/alexa-skills/p1.png",
+        "images/portfolio/alexa-skills/p2.png"
+      ],
+      "url": "https://www.amazon.com/Good-Influence-Inc/dp/B07B48JMB7/ref=sr_1_1?crid=MG3AF7NSI1Y7&keywords=good+influence&qid=1671563649&s=digital-skills&sprefix=good+influence%2Calexa-skills%2C114&sr=1-1",
+      "technologies": [
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS (Lambda, Alexa)"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Good Influence Inc.",
+      "startDate": "2015",
+      "description": "The first technical project I ever worked on and it was my own business. I built a website first in Wordpress, then self coded. I creataed an Amazon store to sell health & wellness products. I spent a brief period of time working on a mobile app that was meant to make charity work and volunteering easy to find and join. Someday I'd love to return to this project when I have the time or means to do so.",
+      "images": [
+        "images/portfolio/good-influence/p1.png",
+        "images/portfolio/good-influence/p2.png",
+        "images/portfolio/good-influence/p3.png"
+      ],
+      "url": "http://goodinfluenceinc.org/",
+      "technologies": [
+        {
+          "class": "devicon-wordpress-plain",
+          "name": "WordPress"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "ThriveDX",
+      "title": "Software Development Lead Instructor",
+      "years": "11.2021 - present",
+      "mainTech": [
+        "JavaScript / Node.JS"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.JS",
+        "React",
+        "Express",
+        "PostgreSQL",
+        "Sass",
+        "TypeScript",
+        "AWS",
+        "CircleCI"
+      ]
+    },
+    {
+      "company": "Revolent Group",
+      "title": "AWS Cloud Instructor",
+      "years": "03.2022 - 11.2022",
+      "mainTech": [
+        "AWS Developer / Solutions Architect"
+      ],
+      "technologies": [
+        "AWS",
+        "Docker",
+        "Git",
+        "Python"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "DevOps Support Engineer",
+      "years": "10.2019 - 07.2021",
+      "mainTech": [
+        "JavaScript",
+        "SQL",
+        "AWS",
+        "Java"
+      ],
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "Java",
+        "AWS CloudWatch",
+        "AWS SQS",
+        "AWS DynamoDB",
+        "AWS RedShift",
+        "QuickSight",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Junior Software Developer",
+      "years": "04.2018 - 10.2019",
+      "mainTech": [
+        "Python",
+        "Node.JS"
+      ],
+      "technologies": [
+        "Python",
+        "Node.JS",
+        "JavaScript",
+        "AWS DynamoDB",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Zuggand Inc.",
+      "title": "AWS Cloud Intern",
+      "years": "01.2018 - 04.2018",
+      "mainTech": [
+        "AWS Solutions Architect"
+      ],
+      "technologies": [
+        "AWS",
+        "WordPress",
+        "Git"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Software Developer Intern",
+      "years": "10.2017 - 04.2018",
+      "mainTech": [
+        "React",
+        "Express",
+        "JavaScript"
+      ],
+      "technologies": [
+        "React",
+        "Express",
+        "JavaScript",
+        "Java",
+        "Selenium"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "title": "Technical Account Manager",
+      "years": "02.2017 - 10.2017",
+      "mainTech": [
+        "Amazon Marketplace"
+      ],
+      "technologies": [
+        "API calls",
+        "CSM",
+        "FBA",
+        "Amazon Marketplace",
+        "Excel",
+        "HTML"
+      ]
+    }
+  ]
+}
